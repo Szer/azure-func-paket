@@ -1,0 +1,40 @@
+framework: netstandard2.0
+source https://www.nuget.org/api/v2
+source https://www.myget.org/F/azure-appservice/api/v2
+source https://www.myget.org/F/30de4ee06dd54956a82013fa17a3accb/
+source https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json
+
+storage: none
+
+nuget FSharp.Compiler.Service 13.0.0
+nuget FSharp.Core 4.2.2
+nuget Google.Protobuf 3.3.0
+nuget Grpc.Core 1.4.1
+nuget Microsoft.ApplicationInsights 2.5.0
+nuget Microsoft.AspNetCore.Mvc.WebApiCompatShim 2.0.2
+nuget Microsoft.Azure.AppService.Proxy.Client 2.0.4100001-beta-d5a48cb8
+nuget Microsoft.Azure.Functions.JavaWorker 1.1.0-beta2-10014
+nuget Microsoft.Azure.Functions.NodeJsWorker 1.0.0-beta1-10026
+nuget Microsoft.Azure.WebJobs 3.0.0-beta6-11295
+nuget Microsoft.Azure.WebJobs.Extensions 3.0.0-beta6-10614
+nuget Microsoft.Azure.WebJobs.Extensions.Http 3.0.0-beta6-10614
+nuget Microsoft.Azure.WebJobs.Logging 3.0.0-beta6-11295
+nuget Microsoft.Azure.WebJobs.Logging.ApplicationInsights 3.0.0-beta6-11295
+nuget Microsoft.Build 15.3.409
+nuget Microsoft.CodeAnalysis.CSharp.Scripting 2.4.0
+nuget Microsoft.Extensions.Logging 2.0.0
+nuget Microsoft.Extensions.Logging.Console 2.0.0
+nuget Microsoft.Extensions.Options.ConfigurationExtensions 2.0.0
+nuget Microsoft.FSharp.Compiler 4.2.0-rc-170621-0
+nuget ncrontab 3.3.0
+nuget Newtonsoft.Json 10.0.3
+nuget NuGet.Frameworks 4.4.0
+nuget NuGet.LibraryModel 4.4.0
+nuget NuGet.ProjectModel 4.4.0
+nuget NuGet.Versioning 4.4.0
+nuget StyleCop.Analyzers 1.1.0-beta004
+nuget System.IO.Abstractions 2.1.0.175
+nuget System.Net.Primitives 4.3.0
+nuget System.Reactive.Linq 3.1.1
+nuget System.Reactive.PlatformServices 3.1.1
+nuget System.Reflection.Emit 4.3.0
